@@ -1,0 +1,18 @@
+ body{
+     height: 100vh;
+     display: flex;
+ }
+ 
+.row{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.cel{
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+}
